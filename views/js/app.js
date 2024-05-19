@@ -51,7 +51,7 @@ function myFunction() {
     }
     else{
         element.style.color="white";
-    element.style.backgroundColor="#232323";
+    element.style.backgroundColor="#131313";
     mode.src="./svg/sun.svg"
     mode.style.filter="invert()";
     cross.style.filter=""

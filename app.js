@@ -27,4 +27,4 @@ mongoose.connect(url,{useNewUrlParser: true, useUnifiedTopology: true}).then(res
 app.use('/',require('./routes/userRoutes'))
 
 // RUN
-app.listen(process.env.PORT,()=>console.log(`Listening on http://localhost:${process.env.URL}`))
+app.listen(process.env.PORT,()=>console.log(`Listening on http://localhost:${process.env.PORT}`))

@@ -138,7 +138,7 @@ formData.append('file', fs.createReadStream(req.file.path));
     Files.create(data).then((data)=>{
         console.log('entered data successfully')
     })
-    res.redirect(url)
+    res.redirect('/dashboard')
 })
 
 // BACKEND --> FRONTENT 

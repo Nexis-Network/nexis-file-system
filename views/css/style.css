@@ -7,8 +7,8 @@
     -webkit-font-smoothing: antialiased;
 }
 :root {
-    --primary: #933ded;
-    --dark: #232323;
+    --primary: #3072f8;
+    --dark: #131313;
     --pure: #fff;
     --smoke: whitesmoke;
     --dark-gray: #999;
@@ -241,7 +241,7 @@ nav ul.dropdown-list {
 .texts h2{
     padding-bottom:20px;
     padding-left: 10px;
-    color:#933ded;
+    color:#3072f8;
     font-size: 25px;
 }
 
@@ -258,7 +258,7 @@ nav ul.dropdown-list {
   }
 
 .active{
-    box-shadow: 1px 1px 23px #bc7cff;
+    box-shadow: 1px 1px 23px #3072f8;
 }
 @keyframes fadeIn {
     0% {opacity: 1;}

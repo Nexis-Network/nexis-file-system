@@ -1,5 +1,5 @@
 {
-  "name": "fileshare",
+  "name": "NexisFileShare",
   "version": "1.0.0",
   "description": "This is a file sharing website which we made in our hackathon",
   "main": "app.js",

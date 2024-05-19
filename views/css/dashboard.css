@@ -27,13 +27,13 @@ color: white;
   --nav-width: 219px;
 
   /*========== Colors ==========*/
-  --first-color: #6923D0;
+  --first-color: #3072f8;
   --first-color-light: #F4F0FA;
-  --title-color: #19181B;
+  --title-color: white;
   --text-color: #58555E;
   --text-color-light: #A5A1AA;
-  --body-color: #F9F6FD;
-  --container-color: #FFFFFF;
+  --body-color: #131313;
+  --container-color: #131313;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -236,6 +236,7 @@ img {
 
 .nav__dropdown-item:hover {
   color: var(--first-color);
+  cursor: pointer;
 }
 
 .nav__dropdown-icon {
